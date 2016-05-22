@@ -1,0 +1,24 @@
+1 - L'utilisateur branche sa TCell
+2 - L'utilisateur se connecte à un site
+3 - L'utilisateur demande à l'add-on firefox (préalablement installé) de remplir le formulaire de la page
+4 - L'add-on demande au serveur HTTP de transmettre la requête à l'appli JAVA
+5 - Le serveur HTTP envoi à l'appli JAVA l'adresse du formulaire à remplir et se met en attente d'une réponse d'identifiants de connexion
+6 - L'appli JAVA reçoit la demande du serveur HTTP et initialise la TCell avec le SGBD
+7 - L'appli JAVA demande à l'utilisateur son empreinte
+8 - L'utilisateur utilise le capteur biométrique (si l'empreinte n'est pas reconnue on laisse 3 essais avant de fermer l'appli)
+9 - L'empreinte est analysée par l'appli JAVA (chiffrement ?)
+10 - La valeur de l'empreinte est recherchée dans le SGBD de la TCell
+11 - La TCell retourne un IdFinger à l'appli JAVA
+12 - L'appli JAVA demande un code PIN à l'utilisateur
+13 - L'utilisateur entre son code PIN
+14 - Le code PIN est analysé par l'appli JAVA (chiffrement ?)
+15 - La valeur du code PIN est recherchée dans le SGBD de la TCell
+16 - La TCell retourne un IdPIN à l'appli JAVA
+17 - L'appli JAVA lance une requête de recherche d'IdUser en fonction de IdPIN et IdFinger
+18 - La TCell retourne un IdUser à l'appli JAVA
+19 - L'appli JAVA utilise maintenant la valeur de la page formulaire à remplir pour trouver un IdSite dans le SGBD de la TCell
+20 - La TCell est interrogée pour trouver les identifiants de l'utilisateur (ValeurLogin, ValeurPass) à partir de la connaissance de IdUser et IdSite
+21 - L'appli JAVA transmet les identifiants au serveur HTTP
+22 - Le serveur HTTP sort de l'attente et transmet les identifiants à l'add-on
+23 - L'add-on remplit le formulaire de la page
+

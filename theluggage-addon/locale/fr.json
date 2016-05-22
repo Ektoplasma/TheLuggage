@@ -1,0 +1,19 @@
+{ 
+ "auto": "Détection automatique",
+ "authors": "Auteurs",
+ "back": "Retour", 
+ "cancel": "Annuler", 
+ "email": "Adresse email", 
+ "greetings": "Merci d'utiliser The Luggage !",
+ "logout": "Se déconnecter",  
+ "offline": "non connecté",  
+ "online": "connecté",
+ "register": "Enregistrer Site",
+ "safe": "Ouvrir Coffre-fort",
+ "save": "Sauvegarder",
+ "settings": "Options",
+ "status": "Statut",
+ "title" : "Extension The Luggage",
+ "username": "Nom d'utilisateur", 
+ "welcome": "Bienvenue"
+}

@@ -1,0 +1,222 @@
+/*@import url(https://fonts.googleapis.com/css?family=Roboto:300);*/
+
+html, body {
+  height: auto;
+  width: 350px;
+  margin: 1.5px;
+  font-family: "Lato", Calibri, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.login-page {
+  width: auto;
+  /*padding: 8% 0 0;*/
+  /*margin: auto;*/
+}
+
+a {
+  outline: none;
+}
+
+.icon {
+  vertical-align: middle;
+}
+
+.hide {
+  display: none !important;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-size: 9.5px;
+}
+
+.menu {
+  height: 55px;
+  width: 100%;
+  background-color: #2F2F2F;
+}
+.menu.top .logo {
+  float: left;
+  height: 100%;
+  width: 50%;
+  text-align: center;
+}
+.menu.top .logo img {
+  margin: 11.5px 0 11.5px 0;
+}
+.menu.top .login {
+  display: table;
+  float: left;
+  height: 100%;
+  width: 50%;
+}
+.menu.top .login .login-contain {
+  display: table-cell;
+  vertical-align: middle;
+}
+.menu.top .login a, .menu.top .login p {
+  overflow: hidden;
+  width: 165px;
+  line-height: 15px;
+  margin: 0;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  color: #777777;
+}
+.menu.top .login a:hover {
+  color: #61AD6F;
+}
+.menu.bottom .control {
+  display: table;
+  float: left;
+  height: 100%;
+  width: 65px;
+  margin: 0 2px 0 2px;
+}
+.menu.bottom .control a, #toto {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 25px;
+  color: #777777;
+}
+.menu.bottom .control a:hover {
+  color: #FFF;
+}
+.menu.bottom .control a.active {
+  color: #61AD6F;
+}
+.menu.bottom .control.settings {
+  width: 100%;
+}
+
+.contain {
+  overflow: auto;
+  height: 300px !important;
+  width: 100%;
+  border-left: 1px solid #777777;
+  border-right: 1px solid #777777;
+}
+.contain .profile {
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid #777777;
+}
+.contain .profile .check {
+  display: table;
+  float: left;
+  height: 50px;
+  width: 60px;
+  padding: 15px 0 0 0;
+  text-align: center;
+}
+.contain .profile .check label {
+  background-color: #777777 !important;
+}
+.contain .profile .check input:checked + label {
+  background-color: #61AD6F !important;
+}
+.contain .profile .info {
+  float: left;
+  overflow: hidden;
+  height: 50px;
+  width: 266px;
+  line-height: 1px;
+  padding-top: 4px;
+}
+.contain .profile .info a, .contain .profile .info p, .contain .profile .info .icon {
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.contain .profile .info p {
+  font-size: 13px;
+}
+.contain .profile .info a {
+  font-size: 9.5px;
+}
+.contain .profile .info.streamable {
+  width: 196px;
+}
+.contain .profile .info.downloadable {
+  width: 231px;
+}
+.contain .profile .stream, .contain .profile .download {
+  display: table;
+  float: left;
+  height: 50px;
+  width: 35px;
+}
+.contain .profile .stream a, .contain .profile .download a {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 25px;
+  color: #777777;
+  padding-top: 4px;
+}
+.contain .profile .stream a:hover, .contain .profile .download a:hover {
+  color: #61AD6F;
+}
+.contain .profile .stream a {
+  padding-top: 8px;
+}
+
+.contain.settings {
+  background-color: #FFF;
+}
+.contain.settings .wrapper {
+  display: table;
+  height: 209px;
+  width: 300px;
+  margin: 0 0 0 25px;
+}
+.contain.settings .wrapper .info {
+  display: table-cell;
+  vertical-align: middle;
+}
+.contain.settings p, .contain.settings h5 {
+  margin: 0;
+}
+.contain.settings a {
+  color: #61AD6F;
+}
+.author {
+  color: #000066;
+}
+.contain.settings a:hover {
+  color: #61AD6F;
+}
+.contain.offline {
+  display: table;
+}
+.contain.offline .offline-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.wrapper { position: relative; }
+
+i.widget { position: absolute; top: 10px; right: 10px; cursor:pointer}
+i.editor { position: absolute; top: 10px; right: 30px; cursor:pointer}
+i.pencil{ position: absolute; top: 5px; right: 20px; cursor: pointer; font-size: 20px}
+
+br {
+   display: block;
+   margin: 12px 0;
+}
+
+#status{
+  font-weight: bold;
+  color : green;
+}

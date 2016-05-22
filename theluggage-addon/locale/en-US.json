@@ -1,0 +1,19 @@
+{
+ "auto": "Automatic Detection",
+ "authors": "Authors",
+ "back": "Back", 
+ "cancel": "Cancel", 
+ "email": "Email Address", 
+ "greetings": "Thanks for using The Luggage !",
+ "logout": "Logout", 
+ "offline": "You are offline", 
+ "online": "You are online",
+ "register": "Register Website",
+ "safe": "Open Digital Safe",
+ "save": "Save",
+ "settings": "Settings", 
+ "status": "Status",
+ "title" : "The Luggage Add-on",
+ "username": "Username", 
+ "welcome": "Welcome"
+}

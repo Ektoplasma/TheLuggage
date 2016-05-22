@@ -1,0 +1,23 @@
+<html>
+<head>
+  <script type="text/javascript" src="./parser.js"></script>
+  <title>parse.html</title>
+</head>
+<body>
+  <script>
+  var message = parseIn("QTpSdWJ5fGF6ZXJ0eQ=="); <!-- mage de type A:login1|mdp1:login2|mdp2 ... en base64 -->
+
+  for (var i = 0; i < message.length; i++) {
+    document.write("  login:");
+    document.write(message[i].login);
+    document.write("  mdp:");
+    document.write(message[i].mdp);
+  }
+  document.write("<br>");
+  var param = {nomFieldMdp:"FieldPSite2", nomFieldLogin:"FieldLSite2", URL:"http://www.9gag.com/"}; <!-- objet param a remplir avec les champs login, mdp, nomFieldLogin, nomFieldMdp ou URL en fonction des besoins -->
+
+  var msg = parseOut("RemplirForm", param); <!-- le premier parametre est une action qui peut etre RemplirForm, SupprID, AjoutID, AjoutSite, ModifID, ModifForm -->
+  document.write(msg);
+  </script>
+</body>
+</html>

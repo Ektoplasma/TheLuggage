@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/JDBCng"/>
+	<classpathentry kind="lib" path="/root/workspace/commons-codec-1.10/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="/root/theluggage/JAVA/Libraries/encrypt.jar"/>
+	<classpathentry kind="lib" path="/root/theluggage/JAVA/Libraries/finger.jar"/>
+	<classpathentry kind="lib" path="/root/theluggage/JAVA/Libraries/hash.jar"/>
+	<classpathentry kind="lib" path="/root/theluggage/JAVA/Libraries/rqDeparse.jar"/>
+	<classpathentry kind="lib" path="/root/theluggage/JAVA/Libraries/log.jar"/>
+	<classpathentry kind="lib" path="/root/theluggage/JAVA/Libraries/tokenLibrary.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

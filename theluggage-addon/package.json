@@ -1,0 +1,20 @@
+{
+  "title": "The Luggage",
+  "name": "theluggage",
+  "version": "1.0.0",
+  "description": "Digital Safe for your web passwords !",
+  "main": "index.js",
+  "author": "Ektoplasma",
+  "homepage": "https://github.com/Ektoplasma",
+  "icon": "resource://@theluggage/data/img/icon-menu.png",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "luggage"
+  ],
+  "dependencies": {
+    "menuitem": "0.0.5"
+  }
+}

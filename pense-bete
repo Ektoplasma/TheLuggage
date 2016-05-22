@@ -1,0 +1,17 @@
+Installer npm : sudo apt-get install nodejs nodejs-legacy npm
+Installer jpm : sudo npm install jpm --global
+
+Nouvel add-on : jpm init
+Run add-on : jpm run -b $BINARY -p $PROFILE
+Empaqueter add-on : jpm xpi
+
+BINARY : le path de votre firefox (chez moi /usr/bin/firefox)
+PROFILE (recommandé) : le profil firefox que vous souhaitez utiliser
+
+Lancer le ProfileManager de firefox : firefox -P
+Lancer Firefox sous un profil : firefox -P "votreprofil"
+
+tuto de démarrage jpm : https://developer.mozilla.org/en-US/Add-ons/SDK/Tools/jpm#Installation
+
+pense-bête (commande pour (ré)installer le .xpi) : jpm post --post-url http://localhost:8888/ -p $PROFILE -b $BINARY
+jpm post --post-url http://localhost:8888/
